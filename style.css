@@ -1,0 +1,63 @@
+body,html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	font-family: 'Montserrat' , sans-serif;
+	margin-top: 0px;
+
+	background-position: center;
+	background-image: url(laptop_cup_glasses_plant_114948_1920x1080.jpg);
+	background-size: cover;
+	height: 95%;
+}
+
+
+.faded{
+	color: rgba(255,255,255,0.8);
+	
+	padding-top: 150px;
+	padding-left: 30px;
+}
+
+
+.text-uppercase{
+	text-transform: capitalize;
+}
+	
+
+header.startup h1{
+	font-size: 3.5rem;
+}
+
+
+.btn{
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 300px;
+	border: 0px solid rgba(255,255,255,0);
+	font-family: 'Montserrat' , sans-serif;	
+	color: black;
+}
+
+.btn-xl{
+	padding: 1.5rem 3rem;
+	margin-top: 300px;
+	margin-left: 400px;
+}
+
+.btn-primary{
+	background-color: white;
+	border-color: white;
+	font-family: inherit;	
+	font-size: 15px;
+}
+
+.btn-primary:hover {
+	cursor: pointer;
+	transition: all 1s;
+	transform: scale(1.01);
+	background-color: #E24517;
+	/*color: orange;*/
+}
